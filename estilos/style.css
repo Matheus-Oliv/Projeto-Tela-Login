@@ -1,5 +1,13 @@
 @charset "utf-8";
 
+:root {
+    --preto: #000000;
+    --cinza: #333333;
+    --amareloescuro: #d48600;
+    --amarelovivo: #ffbe33;
+    --amareloavermelhado: #a86a00;
+}
+
 * {
     margin: 0px;
     padding: 0px;
@@ -8,7 +16,7 @@
 }
 
 body, html {
-    background-color: #e26f03;
+    background-color:var(--amareloescuro);
     height: 100vh;
     width: 100vw;
 }
@@ -34,7 +42,7 @@ section {
 
 section > div#imagem {
     display: block;
-    background:#e26f03 url(../imagens/cotações.jpg) no-repeat;
+    background:var(--amareloescuro) url(../imagens/cotações.jpg) no-repeat;
     background-position: left center;
     background-size: cover;
     height: 200px;
