@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #e26f03;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.74);
+}
+
+section > div#imagem {
+    display: block;
+    background:#e26f03 url(../imagens/cotações.jpg) no-repeat;
+    background-position: left center;
+    background-size: cover;
+    height: 200px;
+}
+
+section >div#formulario {
+    display: block;
+    padding: 10px;
+}
