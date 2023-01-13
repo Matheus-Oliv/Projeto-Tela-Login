@@ -34,21 +34,33 @@ section {
     transform: translate(-50%, -50%);
     overflow: hidden;
     background-color: white;
-    width: 250px;
-    height: 500px;
+    width: 300px;
+    height: 550px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.74);
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section > div#imagem {
     display: block;
-    background:var(--amareloescuro) url(../imagens/cotações.jpg) no-repeat;
-    background-position: left center;
-    background-size: cover;
+    background:var(--amareloescuro) url(../imagens/Submark\ Fundo\ Amarelo.png) no-repeat;
+    background-position: center center;
+    background-size: contain;
     height: 200px;
 }
 
 section >div#formulario {
     display: block;
     padding: 10px;
+}
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
 }
