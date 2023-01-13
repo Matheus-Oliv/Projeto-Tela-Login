@@ -13,6 +13,7 @@ Grandes telas: acima de 1200px
 @media screen and (min-width:769px) and (max-width: 992px){
     section {
         width: 90vw;
+        height: 380px;
     }
 
     section > div#imagem {
